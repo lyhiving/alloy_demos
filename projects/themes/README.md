@@ -1,18 +1,17 @@
-Welcome to your Appcelerator Titanium Mobile Project
+themes
+======
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+This app shows how you can use Alloy's theming functionality to quickly, and non-invasively change the appearance and layout of your app. This is appealing from the pure perspective of external styling, but it is also a very powerful tool when it comes to branding your app for multiples companies/experiences. When showing this demo I generally highlight the following:
 
+* The fact that themes are located in the **app/themes** folder and are organized by name
+* Each theme can have both an assets and styles folder. This allows not just for styling, but making assets theme-specific will also reduce the overall size of your deployed application.
+* There's no limit to the number of themes
+* The ease with which a theme can be changed
+* Themes can be applied by the platform and/or deployment type in the **app/config.json** file. The config.json in this project shows different themes being applied based on platform.
 
+Requirements
+------------
 
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2012 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
-
+* Titanium SDK 3.0.0.GA
+* Alloy 0.3.4
+* Platforms: iOS, Android. Mobileweb supports themes, but this demo is not optimized for it.
