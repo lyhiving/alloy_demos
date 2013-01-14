@@ -1,0 +1,15 @@
+# exclude everything in the Resources folder
+*/Resources/*
+
+# Save platform specific folders so builds work the first time
+!*/Resources/android
+!*/Resources/iphone
+!*/Resources/mobileweb
+
+# Save the appicon.png file to preserve the folder
+*/Resources/android/*
+!*/Resources/android/appicon.png
+*/Resources/iphone/*
+!*/Resources/iphone/appicon.png
+*/Resources/mobileweb/*
+!*/Resources/mobileweb/appicon.png
