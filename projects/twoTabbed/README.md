@@ -1,18 +1,11 @@
-Welcome to your Appcelerator Titanium Mobile Project
+twoTabbed
+=========
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+This is the default Titanium two tabbed app created with Alloy. This app should be shown in conjunction with the [twoTabbedTraditional](https://github.com/tonylukasavage/alloy_demos/tree/master/projects/twoTabbedTraditional) app to show the much improved organization and code reduction in Alloy versus traditional Titanium development. The app shows a clear separation between UI, style, and logic and about a 50% code reduction. 
 
+Requirements
+------------
 
-
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2012 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
-
+* Titanium SDK: 3.0.0.GA
+* Alloy 0.3.4
+* Platforms: Android, iOS, Mobileweb
